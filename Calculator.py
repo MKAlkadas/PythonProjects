@@ -9,7 +9,7 @@ ctk.set_default_color_theme("blue")  # أو "green" أو "dark-blue"
 class ModernCalculator:
     def __init__(self):
         self.window = ctk.CTk()
-        self.window.title("آلة حاسبة عصرية")
+        self.window.title("آلة حاسبة ")
         self.window.geometry("350x500")
         self.window.resizable(False, False)
         
